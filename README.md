@@ -9,16 +9,22 @@ This is a frontend-only project showcasing product promotions and clean UI desig
 
 ```
 Nike-website/
-├── public/             # Static assets
-├── src/                # React components and styles
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── package.json
-├── tailwind.config.js
-├── vite.config.js
-├── .gitignore
-└── README.md
+├── node_modules/            # Installed dependencies (not committed)
+├── public/                  # Static assets (e.g. favicon)
+│   └── vite.svg
+├── src/                     # React source code
+│   ├── assets/              # Images and logos
+│   ├── components/          # Reusable UI components
+│   ├── App.jsx              # Root component
+│   ├── index.css            # Global styles
+│   └── main.jsx             # Entry point
+├── .gitignore               # Git ignore rules
+├── index.html               # Main HTML file
+├── package.json             # Project metadata & scripts
+├── postcss.config.js        # Tailwind + PostCSS config
+├── tailwind.config.js       # Tailwind CSS config
+├── vite.config.js           # Vite config
+└── README.md                # Project documentation
 ```
 
 ---
@@ -39,6 +45,17 @@ Nike-website/
 - 🎯 Minimalist and clean layout  
 - 🧩 Built with reusable components  
 
+---
+
+## 📸 Screenshots
+
+_Add screenshots here later to showcase your homepage and responsiveness._
+
+---
+
+## 🌐 Deployment
+
+_This project can be deployed for free using [Vercel](https://vercel.com) or GitHub Pages._
 
 ---
 
@@ -64,5 +81,3 @@ npm run dev
 Then open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
-
-> Made with ❤️ by Vidhan
